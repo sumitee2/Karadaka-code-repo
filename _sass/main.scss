@@ -3,20 +3,37 @@
   src: url('Legacy.otf');
 }
 
+body {
+	font-family: themeFont;
+	background-color: rgb(240,240,240);
+	background-repeat: no-repeat;
+}
+
+.headerbar {
+	height: 44px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
 .navbar {
 	overflow: auto;
 	height: 44px;
 	width: 100%;
 }
 
-#navlink {
-	float: right;
-	margin: 10px;
+.current {
+ 	color: rgb(70,80,70);
+}
+
+.uncurrent {
 	color: rgb(200,200,200);
 }
 
-.current {
-  color: rgb(110,110,100);
+#navlink {
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
 }
 
 h1 {
@@ -28,13 +45,11 @@ h1 {
 	height: 1px;
 	width: 100%;
 	background-color: rgba(210, 210, 210, 0.9);
-	margin-top: 16px;
-	margin-bottom: 16px;
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
 
-body {
-	align-items: center;
-	font-family: themeFont;
-	margin: 32px;
+a {
+	color: rgb(70,80,70);
 }
 
