@@ -2,17 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  {% include navigation.html %}
+  <link rel="stylesheet" href="assets/css/styles.css">
   {% include header.html %}
   {% include separator_basic.html %}
+  {% include navigation.html %}
   {% include separator_basic.html %}
   <title>{{ page.title }}</title>
 </head>
 <body>
-
-<div class="container-fluid">
   {{ content }}
-</div>
-
 </body>
 </html>
