@@ -1,5 +1,5 @@
 ---
-layout: default 
+layout: post 
 title:  "The Test Angel"
 category: reading
 ---
@@ -8,3 +8,7 @@ The Stone Angel by Margaret Lawrence is a rare book both in its choice of protag
 Canadian woods and one has to stop and admire the tendrillous manifestations of lingusitic shoots.
 
 The most touching moment in the first quarter of the book is when Hagar denies her brother's request to don their mother's shawl to comfort their dying brother. She has not seen her mother, she died birthing her, and cannot bring herself to put on the pretence of being her even though she loves her brother.
+
+|    Col A    |    Col B    |    Col C    |
+--- | --- | --- |
+| Hey | Hey | Hey |

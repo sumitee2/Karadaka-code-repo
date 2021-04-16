@@ -1,0 +1,9 @@
+Categories:
+
+<div>
+  {% for item in site.categories %}
+    <a href="/">
+      {{ item | first | capitalize }}
+    </a>
+  {% endfor %}
+</div>
