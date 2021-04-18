@@ -15,7 +15,7 @@
 
 @font-face {
   font-family: postContentFont;
-  src: url('Monoid.ttf');
+  src: url('ptsans/PTS55F.ttf');
 }
 
 
@@ -32,7 +32,7 @@ body {
  	margin: 0;
     padding: 0;
 	font-family: postContentFont;
-	background-color: #fae8e0;
+	background-color: #e4dbd9;
 	background-repeat: no-repeat;
 }
 
@@ -41,7 +41,8 @@ body {
 	height: 44px;
 	width: 100%;
 	box-sizing:border-box;
-	background-color: #EF7C8E;
+	background-color: #63a583;
+	box-shadow: 0px 0px 8px 1px #222222;
 }
 
 .current {
@@ -76,7 +77,7 @@ h1 {
 	height: 64px;
 	width: 100%;
 	box-sizing:border-box;
-	background-color: #0292B7;
+	background-color: #2f4c58;
 	overflow: hidden;
 	color: #DEE2EC;
 	text-shadow: 1px 1px #8C756A;
@@ -95,11 +96,11 @@ h1 {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
-	background-color: #EF7C8E;
+	background-color: #63a583;
 }
 
 a {
-	color: rgb(70,80,70);
+	color: #6e93d6;
 }
 
 .col-1 {width: 8.33%;}
