@@ -10,7 +10,15 @@ layout: default
     <title>{{page.title}}</title>
   </head>
   <body>
-    <h1>Latest Posts</h1>
+  <div class = "row">
+
+	<div class = "col-12">
+		<h1>Cold Steelpen Mag: Issue I</h1> </br>
+		<img src= "/assets/images/clouds.png"></img>
+	</div>
+
+	<div class = "col-12">
+		<h1>Latest Posts</h1>
 		<ul>
 		  {% for post in site.posts %}
 		    <li>
@@ -19,5 +27,8 @@ layout: default
 		    </li>
 		  {% endfor %}
 		</ul>
+	</div>		
+</div>
+    
   </body>
 </html>

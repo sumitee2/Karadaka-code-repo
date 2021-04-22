@@ -1,6 +1,6 @@
 ---
 short_name: coldsteelpen
-name: Sumit Chaudhary
+name: coldsteelpen
 position: Chief Editor
 ---
 
