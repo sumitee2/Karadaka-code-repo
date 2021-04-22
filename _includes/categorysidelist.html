@@ -1,9 +1,10 @@
 <div class = "sidebarcat">
-Categories:
+Categories: <br>
 
 <div>
+<br>
   {% for item in site.categories %}
-    <a href="/">
+    <a href="/categories/">
       {{ item | first | capitalize }} <br>
     </a>
   {% endfor %}

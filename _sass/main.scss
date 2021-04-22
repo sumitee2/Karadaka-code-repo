@@ -31,9 +31,10 @@ html {
 body {
  	margin: 0px;
     padding: 0px;
-	font-family: postContentFont;
+	font-family: postTitleFont;
 	background-color: #000000;
 	background-repeat: no-repeat;
+	color: #dedede
 }
 
 .navbar {
@@ -42,7 +43,7 @@ body {
 	width: 100%;
 	box-sizing:border-box;
 	box-shadow: 0px 0px 8px 1px #222222;
-	background-color: #dc5873;
+	background-color: #777777;
 }
 
 .current {
@@ -68,6 +69,7 @@ h1 {
 
 .postTitle {
 		font-family: postTitleFont;
+		color: #a03a2b
 }
 
 .postContent {
@@ -96,11 +98,11 @@ h1 {
 	width: 100%;
 	margin: 0px;
 	padding: 0px;
-	background-color: #dc5873;
+	background-color: #777777;
 }
 
 a {
-	color: #b4babd;
+	color: #a05b3c;
 	text-decoration: none;
 }
 
@@ -122,7 +124,7 @@ a {
   padding: 15px;
   margin: 5px;
   overflow: hidden;
-  border: 1px solid #dc5873;
+  border: 1px solid #999999;
 }
 
 .savedextra {
