@@ -141,17 +141,6 @@ a {
   border: 1px solid #999999;
 }
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  };
-
-  .headerbar {
-  	font-size: 15px;
-  }
-}
-
 .savedextra {
 	  background-color: #63a583;
 }
@@ -177,4 +166,15 @@ footer {
   padding: 3px;
   background-color: #777777;
   color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 98%;
+  };
+
+  .headerbar {
+  	font-size: 15px;
+  }
 }
